@@ -2,9 +2,8 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 
 const urlApi = 'https://pixabay.com/api/';
-const apiKey = '39293413-f7845b49e753cbeb6dc88411e';
+const apiKey = '39518450-04307adc64ba4dc69e2391ead';
 
-// const searchBtn = document.querySelector('button[data-search]');
 const searchForm = document.querySelector('#search-form');
 const searchInput = document.querySelector('#search-input');
 const contenerGallery = document.querySelector('.gallery');
@@ -22,14 +21,6 @@ searchForm.addEventListener('submit', e => {
     photos.splice(0, photos.length);
     contenerGallery.innerHTML = '';
   }
-
-  // if (contenerGallery.children.length !== 0) {
-  //   const arrayDiv = contenerGallery.children;
-  //   console.log(arrayDiv);
-  //   for (let i = 0; (i = arrayDiv.length); i++) {
-  //     contenerGallery.firstChild.remove();
-  //   }
-  // }
 
   fetchPhotos();
 });

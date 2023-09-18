@@ -5,11 +5,13 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+  background-color: beige;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  background-color: lightgray;
 }
 .photo-card {
   width: 300px;
@@ -24,7 +26,6 @@
 .info-item {
   display: flex;
   flex-direction: column-reverse;
-
   align-items: center;
 }
 img {
@@ -41,5 +42,5 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 0 20 0 20;
 }
