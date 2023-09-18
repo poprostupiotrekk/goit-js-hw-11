@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <div class="contener">
+      <form class="search-form" id="search-form">
+        <input
+          id="search-input"
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit" data-search>Search</button>
+      </form>
+      <div class="gallery">
+        <!-- Obraz karty -->
+      </div>
+      <button type="button" class="load-more">Load more</button>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

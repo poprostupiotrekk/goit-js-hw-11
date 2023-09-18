@@ -1,0 +1,45 @@
+@import './common';
+@import './example';
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.photo-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  display: flex;
+  gap: 5px;
+}
+.info-item {
+  display: flex;
+  flex-direction: column-reverse;
+
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.is-hiden {
+  position: absolute;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.contener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
